@@ -4,7 +4,7 @@ title: "Test Page"
 
 test
 
-|  Name  |  Title  |  URL  |
+|  発表者  |  タイトル  |  URL  |
 | ---- | ---- | ---- |
 |  TD  |  TD  |  TD  |
 |  TD  |  TD  |  TD  |
