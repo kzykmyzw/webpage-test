@@ -23,3 +23,5 @@ jobs:
           path: ./artifact.tar
           if-no-files-found: warn
       - uses: actions/deploy-pages@v1
+        with:
+          emit_telemetry: false
