@@ -32,5 +32,5 @@ jobs:
       - uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
           branch: master
-          folder: _site/
+          folder: ./
           token: ${{ secrets.GITHUB_TOKEN }}
