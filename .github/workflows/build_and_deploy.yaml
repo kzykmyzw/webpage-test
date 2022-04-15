@@ -24,4 +24,5 @@ jobs:
           if-no-files-found: warn
       - uses: actions/deploy-pages@v1
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           emit_telemetry: false
