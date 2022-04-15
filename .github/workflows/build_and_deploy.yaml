@@ -1,5 +1,4 @@
 name: GitHub Pages
-
 on:
   push:
     branches:
@@ -21,8 +20,7 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
+      - uses: actions/checkout@v2
       - uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
           branch: master
-          folder: ./
-          token: ${{ secrets.GITHUB_TOKEN }}
