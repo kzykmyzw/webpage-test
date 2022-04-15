@@ -22,6 +22,7 @@ jobs:
           name: github-pages
           path: ./artifact.tar
           if-no-files-found: warn
-      - uses: actions/deploy-pages@v1
+      - uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
-          emit_telemetry: false
+          branch: master
+          folder: ./
