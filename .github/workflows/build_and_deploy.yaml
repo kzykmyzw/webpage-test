@@ -25,3 +25,4 @@ jobs:
         with:
           branch: master
           folder: ./
+          token: ${{ secrets.GITHUB_TOKEN }}
