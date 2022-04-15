@@ -12,7 +12,6 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v2
-      - name: Deploy to GitHub Pages
       - uses: actions/jekyll-build-pages@v1
       - run: tar --dereference --hard-dereference --directory _site/ -cvf artifact.tar .
       - uses: actions/upload-artifact@main
